@@ -1,9 +1,9 @@
-import Image from "next/image";
+import { Intro } from "@/components/Intro";
 
 export default function Home() {
   return (
-    <main className="">
-      <h1>Yearruhh</h1>
+    <main className="flex flex-col items-center px-4">
+      <Intro />
     </main>
   );
 }
