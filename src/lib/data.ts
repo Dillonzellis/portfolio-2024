@@ -1,3 +1,5 @@
+import pika from "/public/pika-fishing.jpeg";
+
 export const links = [
   {
     name: "Home",
@@ -22,5 +24,29 @@ export const links = [
   {
     name: "Contact",
     hash: "#contact",
+  },
+] as const;
+
+export const projectsData = [
+  {
+    title: "Acme",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit adipiscing bibendum est ultricies.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    imageUrl: pika,
+  },
+  {
+    title: "Acme",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit adipiscing bibendum est ultricies.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    imageUrl: pika,
+  },
+  {
+    title: "Acme",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit adipiscing bibendum est ultricies.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: pika,
   },
 ] as const;
