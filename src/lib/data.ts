@@ -1,4 +1,6 @@
+import React from "react";
 import pika from "/public/pika-fishing.jpeg";
+import { LuGraduationCap } from "react-icons/lu";
 
 export const links = [
   {
@@ -69,4 +71,31 @@ export const skillsData = [
   "dank memes",
   "dank memes",
   "dank memes",
+] as const;
+
+export const experiencesData = [
+  {
+    title: "Acme",
+    location: "Atlanta, GA",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
+  },
+  {
+    title: "Acme",
+    location: "Atlanta, GA",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
+  },
+  {
+    title: "Acme",
+    location: "Atlanta, GA",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
+  },
 ] as const;
