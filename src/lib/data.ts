@@ -50,3 +50,23 @@ export const projectsData = [
     imageUrl: pika,
   },
 ] as const;
+
+export const skillsData = [
+  "dank memes",
+  "dank memes",
+  "dank memes",
+  "dank memes",
+  "dank memes",
+  "dank memes",
+  "dank memes",
+  "dank memes",
+  "dank memes",
+  "dank memes",
+  "dank memes",
+  "dank memes",
+  "dank memes",
+  "dank memes",
+  "dank memes",
+  "dank memes",
+  "dank memes",
+] as const;
