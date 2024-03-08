@@ -6,6 +6,11 @@ import { Projects } from "@/components/Projects";
 import { SectionDivider } from "@/components/SectionDivider";
 import { Skills } from "@/components/Skills";
 
+// TODO: html email
+// TODO: theme toggle
+// TODO: button styles
+// TODO: sonner toasts
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
