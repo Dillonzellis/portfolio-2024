@@ -58,8 +58,8 @@ export const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hello my name is Dillon Ellis. I'm a Full Stack Developer with 5 years
-        of experience. Yea boi liek come on. Its the damn thang.
+        Hello my name is Dillon Ellis. I&apos;m a Full Stack Developer with 6
+        years of experience. Yea boi liek come on. Its the damn thang.
       </motion.h1>
 
       <motion.div
