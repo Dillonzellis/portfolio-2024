@@ -7,8 +7,9 @@ import { SectionDivider } from "@/components/SectionDivider";
 import { Skills } from "@/components/Skills";
 
 // TODO: html email
-// TODO: theme toggle
 // TODO: button styles
+// TODO: correct date
+// TODO: replace Experience component
 
 export default function Home() {
   return (
