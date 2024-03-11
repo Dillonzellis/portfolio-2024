@@ -4,7 +4,10 @@ export const Footer = () => {
       <small className="mb-2 block text-xs">
         &copy;{new Date().getFullYear()} Dillonzellis. All rights reserved.
       </small>
-      <p className="text-xs">this is a portfolio site</p>
+      <p className="text-xs">
+        This site was built with Next.js, Typescript, Tailwind, and Framer
+        Motion
+      </p>
     </footer>
   );
 };

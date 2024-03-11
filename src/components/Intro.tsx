@@ -30,13 +30,12 @@ export const Intro = () => {
           >
             <Image
               src={pika}
-              alt="Ricardo portrait"
+              alt="dillon ellis profile picture"
               quality="95"
               priority={true}
               className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
             />
           </motion.div>
-
         </div>
       </div>
 
@@ -70,13 +69,13 @@ export const Intro = () => {
           href=""
           download
         >
-          Download CV{" "}
+          Download Resume{" "}
           <HiDownload className="opacity-60 transition group-hover:translate-y-1" />
         </a>
 
         <a
           className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/dillon-ellis/"
           target="_blank"
         >
           <BsLinkedin />
@@ -84,7 +83,7 @@ export const Intro = () => {
 
         <a
           className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-[1.35rem] text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/Dillonzellis"
           target="_blank"
         >
           <FaGithubSquare />

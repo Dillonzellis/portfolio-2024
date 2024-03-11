@@ -1,6 +1,8 @@
 import React from "react";
 import pika from "/public/pika-fishing.jpeg";
 import { LuGraduationCap } from "react-icons/lu";
+import { FaReact } from "react-icons/fa";
+import { CgWorkAlt } from "react-icons/cg";
 
 export const links = [
   {
@@ -31,71 +33,80 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Acme",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit adipiscing bibendum est ultricies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    title: "RLM Affairs",
+    description: "Marketing site for wedding buisness",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"],
     imageUrl: pika,
   },
   {
-    title: "Acme",
+    title: "Walking After Midnight",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit adipiscing bibendum est ultricies.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A site for a family to upload and share photos. Complete with accounts and a database.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "MongoDB",
+      "Payload",
+      "Express",
+      "AWS",
+    ],
     imageUrl: pika,
   },
   {
-    title: "Acme",
+    title: "OOT Tracker",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit adipiscing bibendum est ultricies.",
+      "An application to track the progress of a playthrough of the Legend of Zelda: Ocarina of Time",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: pika,
   },
 ] as const;
 
 export const skillsData = [
-  "dank memes",
-  "dank memes",
-  "dank memes",
-  "dank memes",
-  "dank memes",
-  "dank memes",
-  "dank memes",
-  "dank memes",
-  "dank memes",
-  "dank memes",
-  "dank memes",
-  "dank memes",
-  "dank memes",
-  "dank memes",
-  "dank memes",
-  "dank memes",
-  "dank memes",
+  "TypeScript",
+  "React",
+  "JavaScript",
+  "Node",
+  "Git",
+  "Prisma",
+  "Nextjs",
+  "CSS",
+  "SASS",
+  "HTML",
+  "Tailwind",
+  "Framer Motion",
+  "MongoDB",
+  "Bootstrap",
+  "WordPress",
+  "Express",
+  "AWS",
+  "SQL",
+  "Python",
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Acme",
-    location: "Atlanta, GA",
+    title: "Graduated UNG",
+    location: "Dalonegha, GA",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "I graduated from the University of North Georgia with a Bachelors's of Science in Pyschological Science. I also minored in Computer Science. I lead several independent Experimental Studies and presented independent research at SEPA.",
     icon: React.createElement(LuGraduationCap),
-    date: "2024",
+    date: "2017",
   },
   {
-    title: "Acme",
+    title: "DZ Designs",
     location: "Atlanta, GA",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024",
+    description: "I worked as full stack developer as a freelancer.",
+    icon: React.createElement(FaReact),
+    date: "2018",
   },
   {
-    title: "Acme",
-    location: "Atlanta, GA",
+    title: "LSCU",
+    location: "Duluth, GA",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024",
+      "I work as a web developer for the League of Southeastern Credit Unions.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022",
   },
 ] as const;
