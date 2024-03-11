@@ -10,6 +10,8 @@ import { Skills } from "@/components/Skills";
 // TODO: correct data
 // TODO: replace Experience component
 // TODO: confirmation email
+// TODO: form validation with zod
+// TODO: refactor
 
 export default function Home() {
   return (
