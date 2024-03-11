@@ -31,7 +31,7 @@ export const Contact = () => {
     >
       <SectionHeading>Contact me</SectionHeading>
 
-      <p className="-mt-6 text-gray-700 dark:text-white/80">
+      <p className="-mt-6  text-gray-700 dark:text-white/80">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:example@gmail.com">
           example@gmail.com
