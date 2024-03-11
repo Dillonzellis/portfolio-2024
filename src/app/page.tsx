@@ -9,6 +9,7 @@ import { Skills } from "@/components/Skills";
 // TODO: button styles
 // TODO: correct date
 // TODO: replace Experience component
+// TODO: confirmation email
 
 export default function Home() {
   return (
