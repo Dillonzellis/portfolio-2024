@@ -9,7 +9,6 @@ import { Skills } from "@/components/Skills";
 // TODO: html email
 // TODO: theme toggle
 // TODO: button styles
-// TODO: sonner toasts
 
 export default function Home() {
   return (
