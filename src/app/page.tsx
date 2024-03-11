@@ -6,7 +6,6 @@ import { Projects } from "@/components/Projects";
 import { SectionDivider } from "@/components/SectionDivider";
 import { Skills } from "@/components/Skills";
 
-// TODO: html email
 // TODO: button styles
 // TODO: correct date
 // TODO: replace Experience component
