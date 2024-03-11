@@ -7,7 +7,7 @@ import { SectionDivider } from "@/components/SectionDivider";
 import { Skills } from "@/components/Skills";
 
 // TODO: button styles
-// TODO: correct date
+// TODO: correct data
 // TODO: replace Experience component
 // TODO: confirmation email
 
