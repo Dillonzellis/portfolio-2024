@@ -18,12 +18,10 @@ export const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Nunc sed augue lacus
-        viverra vitae congue eu consequat ac. Mauris vitae ultricies leo integer
-        malesuada. Viverra adipiscing at in tellus integer feugiat scelerisque.
-        Facilisis gravida neque convallis a cras semper auctor neque vitae. Mi
-        eget mauris pharetra et ultrices neque.
+        Impact-driven software engineer with a passion for continuous learning.
+        Proven track record of delivering significant results and staying at the
+        cutting edge of technology. Exceptional problem-solving skills and a
+        collaborative mindset for driving innovation and achieving excellence.
       </p>
     </motion.section>
   );
