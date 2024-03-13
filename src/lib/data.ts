@@ -33,12 +33,6 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "RLM Affairs",
-    description: "Marketing site for wedding buisness",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"],
-    imageUrl: pika,
-  },
-  {
     title: "Walking After Midnight",
     description:
       "A site for a family to upload and share photos. Complete with accounts and a database.",
@@ -55,6 +49,12 @@ export const projectsData = [
     imageUrl: pika,
   },
   {
+    title: "RLM Affairs",
+    description: "Marketing site for wedding buisness",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"],
+    imageUrl: pika,
+  },
+  {
     title: "OOT Tracker",
     description:
       "An application to track the progress of a playthrough of the Legend of Zelda: Ocarina of Time",
@@ -66,10 +66,9 @@ export const projectsData = [
 export const skillsData = [
   "TypeScript",
   "React",
-
+  "TanStack",
   "JavaScript",
   "Node",
-  "Git",
   "Prisma",
   "Nextjs",
   "CSS",
@@ -79,20 +78,12 @@ export const skillsData = [
   "Framer Motion",
   "MongoDB",
   "Node.js",
-  "Bootstrap",
-  "WordPress",
   "PHP",
   "Express",
   "AWS",
   "SQL",
   "Python",
   "Git",
-  "Github",
-  "Docker",
-  "Linux",
-  "Firebase",
-  "NeoVim",
-  "VS Code",
   "Figma",
 ] as const;
 
@@ -101,14 +92,15 @@ export const experiencesData = [
     title: "Graduated UNG",
     location: "Dalonegha, GA",
     description:
-      "I graduated from the University of North Georgia with a Bachelors's of Science in Pyschological Science. I also minored in Computer Science. I lead several independent Experimental Studies and presented independent research at SEPA.",
+      "I graduated from the University of North Georgia with a Bachelors's of Science in Pyschological Science. I also minored in Computer Science. I led several independent Experimental Studies and presented independent research at SEPA.",
     icon: React.createElement(LuGraduationCap),
     date: "2017",
   },
   {
     title: "DZ Designs",
     location: "Atlanta, GA",
-    description: "I worked as full stack developer as a freelancer.",
+    description:
+      "I worked as a full stack developer doing freelance work. Designed and developed visually captivating and functional websites for businesses, individuals, and artists, using React, WordPress, and other frameworks and libraries",
     icon: React.createElement(FaReact),
     date: "2018",
   },
@@ -116,7 +108,8 @@ export const experiencesData = [
     title: "LSCU",
     location: "Duluth, GA",
     description:
-      "I work as a web developer for the League of Southeastern Credit Unions.",
+      "I work as a software developer for the League of Southeastern Credit Unions where I design and develop web applications using React and other libraries and frameworks. ",
+
     icon: React.createElement(CgWorkAlt),
     date: "2022",
   },
