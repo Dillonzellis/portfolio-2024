@@ -8,9 +8,22 @@ import Link from "next/link";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 export const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
+
+  const [text] = useTypewriter({
+    words: [
+      "Hi, my name is Dillon Ellis. I'm a Full Stack Developer with 6 years of experience",
+      "Guy-who-loves-Coffee.tsx",
+      "<ButLovesToCodeMore />",
+    ],
+    loop: true,
+    typeSpeed: 40,
+    deleteSpeed: 20,
+    delaySpeed: 1000,
+  });
 
   return (
     <section
@@ -40,12 +53,12 @@ export const Intro = () => {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 flex h-44 items-center justify-center px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hello my name is Dillon Ellis. I&apos;m a Full Stack Developer with 6
-        years of experience. Yea boi liek come on. Its the damn thang.
+        <span>{text}</span>
+        <Cursor cursorColor="#fff" />
       </motion.h1>
 
       <motion.div
