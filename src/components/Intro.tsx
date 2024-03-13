@@ -10,6 +10,8 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
+// TODO: add light and dark mode to typewriter and cursor
+
 export const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
 
