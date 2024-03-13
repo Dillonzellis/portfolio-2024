@@ -18,10 +18,16 @@ export const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Impact-driven software engineer with a passion for continuous learning.
-        Proven track record of delivering significant results and staying at the
-        cutting edge of technology. Exceptional problem-solving skills and a
-        collaborative mindset for driving innovation and achieving excellence.
+        After graduating with a degree in Psychology, I decided to pursue
+        programming, which was my minor. During college, I always thought that
+        programming could help me interpret large datasets and make experiments
+        run more smoothly. Along the way, however, I developed a real passion
+        for programming and solving problems. Presently, I specialize in the
+        React ecosystem, focusing on technologies such as React, Next.js,
+        TypeScript, and MongoDB. My experience spans various technologies, and I
+        remain enthusiastically open to new challenges and technologies. I am
+        actively seeking a full-time position as a software developer, eager to
+        contribute my expertise and continue my professional growth.
       </p>
     </motion.section>
   );
