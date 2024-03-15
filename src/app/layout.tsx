@@ -31,10 +31,11 @@ export default function RootLayout({
       <body
         className={`${poppins.className} relative bg-gray-50 pt-28 text-gray-950 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90 sm:pt-36`}
       >
-        <Icons.bgGrid className="absolute right-0 top-0 -z-50 text-gray-50 opacity-5 dark:text-gray-900 dark:opacity-40" />
+        <Icons.bgGrid className="absolute left-1/2 top-[4.5rem] -z-50 w-full -translate-x-1/2 text-gray-50 opacity-5 dark:text-gray-900 dark:opacity-40 md:left-0 md:top-0 md:w-full md:-translate-x-0 md:scale-100" />
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />
+
             {children}
             <Footer />
             <Toaster richColors />
