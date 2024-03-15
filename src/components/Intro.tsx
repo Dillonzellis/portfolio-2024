@@ -9,8 +9,6 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 
-// TODO: add light and dark mode to typewriter and cursor
-
 export const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
 
@@ -46,8 +44,8 @@ export const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hi, my name is Dillon Ellis. I'm a Full Stack Developer with 6 years of
-        experience.
+        Hi, my name is Dillon Ellis. I&apos;m a Full Stack Developer with 6
+        years of experience.
       </motion.h1>
 
       <motion.div
@@ -62,7 +60,7 @@ export const Intro = () => {
           href="#contact"
           className="group flex items-center gap-2 rounded-full bg-gray-900 px-7 py-3 text-white outline-none transition hover:scale-110 hover:bg-gray-950 focus:scale-110 active:scale-105"
         >
-          Contact Me
+          Contact
           <BsArrowRight className="opacity-70 transition group-hover:translate-x-1" />
         </Link>
 
