@@ -7,6 +7,7 @@ import { Footer } from "@/components/Footer";
 import { Toaster } from "sonner";
 import { DarkModeToggle } from "@/components/DarkModeToggle";
 import ThemeContextProvider from "@/context/theme-context";
+import { Icons } from "@/components/Icons";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
@@ -28,9 +29,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`${inter.className} relative bg-gray-50 pt-28 text-gray-950 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90 sm:pt-36`}
         className={`${poppins.className} relative bg-gray-50 pt-28 text-gray-950 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90 sm:pt-36`}
       >
+        <Icons.bgGrid className="absolute right-0 top-0 -z-50 text-gray-50 opacity-5 dark:text-gray-900 dark:opacity-20" />
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />
