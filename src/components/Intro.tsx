@@ -8,24 +8,11 @@ import Link from "next/link";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 // TODO: add light and dark mode to typewriter and cursor
 
 export const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
-
-  const [text] = useTypewriter({
-    words: [
-      "Hi, my name is Dillon Ellis. I'm a Full Stack Developer with 6 years of experience",
-      "Guy-who-loves-Coffee.tsx",
-      "<ButLovesToCodeMore />",
-    ],
-    loop: true,
-    typeSpeed: 40,
-    deleteSpeed: 20,
-    delaySpeed: 1000,
-  });
 
   return (
     <section
@@ -59,8 +46,8 @@ export const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span>{text}</span>
-        <Cursor cursorColor="#fff" />
+        Hi, my name is Dillon Ellis. I'm a Full Stack Developer with 6 years of
+        experience.
       </motion.h1>
 
       <motion.div
@@ -75,16 +62,15 @@ export const Intro = () => {
           href="#contact"
           className="group flex items-center gap-2 rounded-full bg-gray-900 px-7 py-3 text-white outline-none transition hover:scale-110 hover:bg-gray-950 focus:scale-110 active:scale-105"
         >
-          Contact me here{" "}
+          Contact Me
           <BsArrowRight className="opacity-70 transition group-hover:translate-x-1" />
         </Link>
 
         <a
           className="borderBlack group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10"
           href=""
-          download
         >
-          Download Resume{" "}
+          Resume
           <HiDownload className="opacity-60 transition group-hover:translate-y-1" />
         </a>
 
