@@ -66,7 +66,7 @@ export const Intro = () => {
 
         <a
           className="borderBlack group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10"
-          href=""
+          href="/dillonellis-resume.pdf"
         >
           Resume
           <HiDownload className="opacity-60 transition group-hover:translate-y-1" />
