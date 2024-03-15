@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Darker_Grotesque, Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import ActiveSectionContextProvider from "@/context/active-section-context";
@@ -8,7 +8,12 @@ import { Toaster } from "sonner";
 import { DarkModeToggle } from "@/components/DarkModeToggle";
 import ThemeContextProvider from "@/context/theme-context";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,6 +29,7 @@ export default function RootLayout({
     <html lang="en" className="!scroll-smooth">
       <body
         className={`${inter.className} relative bg-gray-50 pt-28 text-gray-950 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90 sm:pt-36`}
+        className={`${poppins.className} relative bg-gray-50 pt-28 text-gray-950 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90 sm:pt-36`}
       >
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
