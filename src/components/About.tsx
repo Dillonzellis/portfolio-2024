@@ -18,16 +18,16 @@ export const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in Psychology, I decided to pursue
-        programming, which was my minor. During college, I always thought that
-        programming could help me interpret large datasets and make experiments
-        run more smoothly. Along the way, however, I developed a real passion
-        for programming and solving problems. Presently, I specialize in the
-        React ecosystem, focusing on technologies such as React, Next.js,
-        TypeScript, and MongoDB. My experience spans various technologies, and I
-        remain enthusiastically open to new challenges and technologies. I am
-        actively seeking a full-time position as a software developer, eager to
-        contribute my expertise and continue my professional growth.
+        I began my programming journey driven by a fascination with solving
+        complex issues and streamlining processes. This fascination has evolved
+        into a commitment to creating high-quality web apps and digital
+        products. While I have expertise in the React ecosystem, my focus is on
+        selecting the best technology to address specific problems, emphasizing
+        a solid grasp of foundational concepts over any particular library. My
+        approach is characterized by a continuous pursuit of knowledge and an
+        adaptability to new challenges. I'm currently seeking a full-time
+        software development role where I can apply my adaptive skill set to
+        deliver impactful solutions and foster technological advancement.
       </p>
     </motion.section>
   );
