@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import pika from "/public/pika-fishing.jpeg";
+import profile from "/public/profile.jpeg";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import Link from "next/link";
 import { HiDownload } from "react-icons/hi";
@@ -29,11 +29,11 @@ export const Intro = () => {
             }}
           >
             <Image
-              src={pika}
+              src={profile}
               alt="dillon ellis profile picture"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
+              className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl dark:border-gray-300 md:h-44 md:w-44"
             />
           </motion.div>
         </div>
