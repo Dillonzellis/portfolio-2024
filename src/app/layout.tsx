@@ -36,7 +36,7 @@ export default function RootLayout({
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />
-            <HexTwo />
+            {/* <HexTwo /> */}
             {children}
             <Footer />
             <Toaster richColors />
