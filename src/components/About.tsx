@@ -25,10 +25,9 @@ export const About = () => {
           library. My approach is characterized by a continuous pursuit of
           knowledge and an adaptability to new challenges.
         </p>
-        <p>
+        <p className="font-semibold">
           I&apos;m currently seeking a full-time software development role where
-          I can apply my adaptive skill set to deliver impactful solutions and
-          foster technological advancement.
+          I can apply my adaptive skill set to deliver impactful solutions.
         </p>
       </div>
     </motion.section>
