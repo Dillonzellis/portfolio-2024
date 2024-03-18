@@ -25,7 +25,7 @@ export const About = () => {
         selecting the best technology to address specific problems, emphasizing
         a solid grasp of foundational concepts over any particular library. My
         approach is characterized by a continuous pursuit of knowledge and an
-        adaptability to new challenges. I'm currently seeking a full-time
+        adaptability to new challenges. I&apos;m currently seeking a full-time
         software development role where I can apply my adaptive skill set to
         deliver impactful solutions and foster technological advancement.
       </p>
