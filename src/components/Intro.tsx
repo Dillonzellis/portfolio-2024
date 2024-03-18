@@ -16,7 +16,7 @@ export const Intro = () => {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] scroll-mt-[100rem] text-center sm:mb-0"
+      className="max-w-[50rem] scroll-mt-[100rem] pb-28 text-center sm:pb-0"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
