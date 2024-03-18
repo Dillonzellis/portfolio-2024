@@ -8,6 +8,7 @@ import { Toaster } from "sonner";
 import { DarkModeToggle } from "@/components/DarkModeToggle";
 import ThemeContextProvider from "@/context/theme-context";
 import { Icons } from "@/components/Icons";
+import { HexTwo } from "@/components/HexTwo";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
@@ -35,7 +36,7 @@ export default function RootLayout({
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />
-
+            <HexTwo />
             {children}
             <Footer />
             <Toaster richColors />
