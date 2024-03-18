@@ -42,7 +42,6 @@ export const projectsData = [
       "Next.js",
       "Tailwind",
       "MongoDB",
-      "Payload",
       "Express",
       "AWS",
     ],
@@ -50,7 +49,8 @@ export const projectsData = [
   },
   {
     title: "RLM Affairs",
-    description: "Marketing site for wedding buisness",
+    description:
+      "A fully responsive marketing site for a wedding business. Following modern design trends that prioritizes accessibility and applies best SEO practices",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"],
     imageUrl: pika,
   },
