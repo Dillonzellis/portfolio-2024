@@ -11,8 +11,6 @@ import {
 } from "react-vertical-timeline-component";
 import { useTheme } from "@/context/theme-context";
 
-// TODO: Fix or replace this timeline component
-
 export const Experience = () => {
   const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
