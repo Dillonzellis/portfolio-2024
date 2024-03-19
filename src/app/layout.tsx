@@ -9,6 +9,8 @@ import { DarkModeToggle } from "@/components/DarkModeToggle";
 import ThemeContextProvider from "@/context/theme-context";
 import { Icons } from "@/components/Icons";
 import { ImageGradients } from "@/components/ImageGradients";
+import LightIcon from "/public/favicon-light.png";
+import DarkIcon from "/public/favicon-dark.png";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
@@ -20,6 +22,20 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Dillon | Personal Portfolio",
   description: "Dillon is a full-stack developer with 6 years of experience.",
+  icons: [
+    {
+      rel: "icon",
+      media: "(prefers-color-scheme: light)",
+      type: "image/png",
+      url: LightIcon.src,
+    },
+    {
+      rel: "icon",
+      media: "(prefers-color-scheme: dark)",
+      type: "image/png",
+      url: DarkIcon.src,
+    },
+  ],
 };
 
 export default function RootLayout({
