@@ -8,7 +8,6 @@ import { Toaster } from "sonner";
 import { DarkModeToggle } from "@/components/DarkModeToggle";
 import ThemeContextProvider from "@/context/theme-context";
 import { Icons } from "@/components/Icons";
-import { HexTwo } from "@/components/HexTwo";
 import { ImageGradients } from "@/components/ImageGradients";
 
 const poppins = Poppins({
@@ -33,13 +32,12 @@ export default function RootLayout({
       <body
         className={`${poppins.className} relative bg-gray-50 pt-28 text-gray-950 antialiased dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90 sm:pt-36`}
       >
-        <Icons.bgGrid className="absolute left-1/2 top-[4.5rem] -z-40 w-full -translate-x-1/2 text-gray-50 opacity-20 dark:stroke-gray-50 dark:text-gray-900 md:left-0 md:top-0 md:w-full md:-translate-x-0 md:scale-100 md:opacity-5" />
+        <Icons.bgGrid className="left-1/2 top-[4.5rem] -z-40 hidden w-full -translate-x-1/2 text-gray-50 opacity-20 dark:stroke-gray-50 dark:text-gray-900 md:absolute md:left-0 md:top-0 md:w-full md:-translate-x-0 md:scale-100 md:opacity-5" />
 
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <ImageGradients />
             <Header />
-            {/* <HexTwo className="absolute -left-16 top-[100rem] -z-50 w-1/2 stroke-gray-900 text-gray-50 opacity-50" /> */}
             {children}
             <Footer />
             <Toaster richColors />
