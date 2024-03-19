@@ -1,5 +1,7 @@
 import React from "react";
 import pika from "/public/pika-fishing.jpeg";
+import walking from "/public/walking.jpg";
+import rlm from "/public/rlm-affairs.jpg";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaReact } from "react-icons/fa";
 import { CgWorkAlt } from "react-icons/cg";
@@ -46,7 +48,7 @@ export const projectsData = [
       "Express",
       "AWS",
     ],
-    imageUrl: pika,
+    imageUrl: walking,
   },
   {
     link: "https://github.com/Dillonzellis/rlmaffairs-v4",
@@ -54,7 +56,7 @@ export const projectsData = [
     description:
       "A fully responsive marketing site for a wedding business. Following modern design trends that prioritizes accessibility and applies best SEO practices",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"],
-    imageUrl: pika,
+    imageUrl: rlm,
   },
   {
     link: "https://github.com/Dillonzellis/tracker-hub",
