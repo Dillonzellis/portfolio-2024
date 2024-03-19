@@ -33,6 +33,7 @@ export const links = [
 
 export const projectsData = [
   {
+    link: "https://github.com/Dillonzellis/family-pic-blog",
     title: "Walking After Midnight",
     description:
       "A site for a family to upload and share photos. Complete with accounts and a database.",
@@ -48,6 +49,7 @@ export const projectsData = [
     imageUrl: pika,
   },
   {
+    link: "https://github.com/Dillonzellis/rlmaffairs-v4",
     title: "RLM Affairs",
     description:
       "A fully responsive marketing site for a wedding business. Following modern design trends that prioritizes accessibility and applies best SEO practices",
@@ -55,6 +57,7 @@ export const projectsData = [
     imageUrl: pika,
   },
   {
+    link: "https://github.com/Dillonzellis/tracker-hub",
     title: "OOT Tracker",
     description:
       "An application to track the progress of a playthrough of the Legend of Zelda: Ocarina of Time",
