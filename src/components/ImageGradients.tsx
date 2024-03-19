@@ -16,12 +16,12 @@ export const ImageGradients = () => {
           <Image
             src={gradientDark}
             alt=""
-            className="absolute top-0 -z-50 opacity-20"
+            className="absolute top-0 -z-50 opacity-25 md:opacity-20"
           />
           <Image
             src={gradientDarkBtm}
             alt=""
-            className="absolute bottom-0 -z-50 opacity-20"
+            className="absolute bottom-72 -z-50 opacity-20 md:bottom-0"
           />
         </>
       ) : (
