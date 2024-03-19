@@ -49,7 +49,7 @@ export const Intro = () => {
       </motion.h1>
 
       <motion.div
-        className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row"
+        className="flex flex-col items-center justify-center gap-2.5 px-4 text-lg font-medium sm:flex-row"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -72,22 +72,23 @@ export const Intro = () => {
           Resume
           <HiDownload className="opacity-80 transition group-hover:translate-y-1" />
         </a>
+        <div className="flex flex-row gap-2">
+          <a
+            className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-black dark:text-gray-50"
+            href="https://www.linkedin.com/in/dillon-ellis/"
+            target="_blank"
+          >
+            <BsLinkedin />
+          </a>
 
-        <a
-          className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-black dark:text-gray-50"
-          href="https://www.linkedin.com/in/dillon-ellis/"
-          target="_blank"
-        >
-          <BsLinkedin />
-        </a>
-
-        <a
-          className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-[1.35rem] text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-black dark:text-gray-50"
-          href="https://github.com/Dillonzellis"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a>
+          <a
+            className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-[1.35rem] text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-black dark:text-gray-50"
+            href="https://github.com/Dillonzellis"
+            target="_blank"
+          >
+            <FaGithubSquare />
+          </a>
+        </div>
       </motion.div>
     </section>
   );
