@@ -4,6 +4,7 @@ import { Resend } from "resend";
 import { validateString, getErrorMessage } from "@/lib/utils";
 import ContactFormEmail from "@/email/contact-form-email";
 import React from "react";
+import ConfirmationEmail from "@/email/confirmation-email";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -36,13 +37,12 @@ export const sendEmail = async (formData: FormData) => {
     });
 
     await resend.emails.send({
-      from: "Confirmation Contact From<dillon@dillonellis.com>",
+      from: "Dillon Ellis Contact Form Confirmation<dillon@dillonellis.com>",
       to: senderEmail,
-      subject: "confirmation of your message from dillonzellis.com",
+      subject: "Thank you for contacting me!",
       reply_to: senderEmail,
-      react: React.createElement(ContactFormEmail, {
+      react: React.createElement(ConfirmationEmail, {
         message: message,
-        senderEmail: senderEmail,
       }),
     });
   } catch (error: unknown) {
