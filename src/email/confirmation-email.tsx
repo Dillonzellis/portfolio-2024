@@ -28,7 +28,7 @@ export default function ConfirmationEmail({
           <Container>
             <Section className="borderBlack my-10 rounded-md bg-white px-10 py-4">
               <Heading className="leading-tight">
-                Confirmation: I've Received Your Inquiry!
+                Confirmation: I&apos;ve Received Your Inquiry!
               </Heading>
               <Text>
                 Thank you for reaching out! I have successfully received your
