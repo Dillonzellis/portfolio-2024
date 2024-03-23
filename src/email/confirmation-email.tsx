@@ -39,7 +39,7 @@ export default function ConfirmationEmail({
               <Heading className="text-lg leading-tight">
                 Here is the message you sent:
               </Heading>
-              <Text className="italic">"{message}"</Text>
+              <Text className="italic">&apos;{message}&apos;</Text>
             </Section>
           </Container>
         </Body>
