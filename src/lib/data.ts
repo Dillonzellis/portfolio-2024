@@ -83,6 +83,8 @@ export const skillsData = [
   "PHP",
   "Python",
   "Prisma",
+  "Drizzle",
+  "PostgreSQL",
   "MongoDB",
   "SQL",
   "TanStack",
