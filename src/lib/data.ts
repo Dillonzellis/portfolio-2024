@@ -58,14 +58,14 @@ export const projectsData = [
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"],
     imageUrl: rlm,
   },
-  {
-    link: "https://github.com/Dillonzellis/tracker-hub",
-    title: "OOT Tracker",
-    description:
-      "An application to track the progress of a playthrough of the Legend of Zelda: Ocarina of Time",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: pika,
-  },
+  // {
+  //   link: "https://github.com/Dillonzellis/tracker-hub",
+  //   title: "OOT Tracker",
+  //   description:
+  //     "An application to track the progress of a playthrough of the Legend of Zelda: Ocarina of Time",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  //   imageUrl: pika,
+  // },
 ] as const;
 
 export const skillsData = [
