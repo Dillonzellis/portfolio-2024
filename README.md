@@ -1,6 +1,6 @@
 # Portfolio
 
-This is the code repository for my personal portfolio website, showcasing my software development projects and skills. Check it out live here: [dillonellis.com](dillonellis.com).
+This is the code repository for my personal portfolio website, showcasing my software development projects and skills. Check it out live here: [dillonellis.com](https://www.dillonellis.com).
 
 ## Quick Start
 
